@@ -40,6 +40,7 @@ public class ProductDAOImpl implements ProductDAO {
         if(selectedProduct.isPresent()){
             Product product = selectedProduct.get();
 
+
             product.setName(name);
             product.setUpdatedAt(LocalDateTime.now());
 
